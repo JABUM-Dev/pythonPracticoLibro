@@ -1,0 +1,11 @@
+Este fichero se usara en las pruebas de manipulacion de datos en python
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Cras pellentesque, urna eget mollis semper, elit turpis 
+posuere diam, quis pretium arcu metus ut neque. 
+roin varius ligula sit amet turpis tincidunt facilisis. 
+Mauris vitae turpis bibendum, tempor urna vel, eleifend 
+tortor. Curabitur finibus, magna ac vulputate accumsan, 
+nisl odio gravida justo, ut pharetra elit enim sed quam.
+
+Nueva linea en el fichero al final usando 'a'
