@@ -36,4 +36,15 @@ else:
 finally:
     print("¡Programa finalizado!")
 
+# Asi podemos obtener el contenido del error 
+print("\n¡Iniciando programa!\n")
+try:
+    print("1" + 2)
+except ValueError:
+    print("Se ha presentado un error de valor")
+except Exception as valor_error:
+    print(valor_error)
+finally:
+    print("Programa con captura de error finalizado")    
+
 

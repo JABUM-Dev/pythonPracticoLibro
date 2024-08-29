@@ -1,0 +1,41 @@
+import os
+import shutil
+
+print("Directorio de trabajo actual: ", os.getcwd())
+os.chdir("D:/Archivos/GIT")
+print("Nuevo directorio de trabajo: ", os.getcwd())
+print("ID del proceso: ", os.getpid())
+# print("ID del usuario del proceso: ", os.getuid()) # No funciona en windows ya que la funcion getuid es nativa de Sistemas Unix
+
+print("¡Cambiando directorio de trabajo!")
+os.chdir("D:/Archivos/GIT")
+print("Nuevo directorio de trabajo: ", os.getcwd())
+print("Contenido del directorio: ", os.listdir())
+print("¡Copiando el fichero prueba.txt!")
+shutil.copy("prueba.txt","nuevaPrueba.txt")
+print("Contenido del directorio: ", os.listdir())
+print("¡Renombrando el fichero nuevaPrueba.txt!")
+os.rename("nuevaPrueba.txt","ejercicio.txt")
+print("Contenido del directorio: ", os.listdir())
+print("¡Creando el nuevo directorio!")
+os.mkdir("nuevoDirectorio")
+print("Contenido del directorio: ", os.listdir())
+print("¡Moviendo el ficehro al nuevo dorectorio!")
+shutil.move("Ejercicio.txt","nuevoDirectorio")
+print("Contenido del directorio: ", os.listdir())
+print("¡Cambiando directorio de trabajo!")
+os.chdir("D:/Archivos/GIT/nuevoDirectorio")
+print("Nuevo directorio de trabajo: ", os.getcwd())
+print("Contenido del directorio: ", os.listdir())
+
+# Borrando ficheros y archivo anterior
+print("¡Cambiando directorio de trabajo!")
+os.chdir("D:/Archivos/GIT")
+print("Nuevo directorio de trabajo: ", os.getcwd())
+print("Contenido del directorio: ", os.listdir())
+print("¡Eliminando el directorio nuevoDirectorio!")
+shutil.rmtree("nuevoDirectorio")
+print("Contenido del directorio: ", os.listdir())
+print("¡Borrando el fichero de prueba.txt!")
+os.remove("prueba.txt")
+print("Contenido del directorio: ", os.listdir())

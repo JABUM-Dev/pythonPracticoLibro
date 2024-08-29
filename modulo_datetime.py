@@ -1,0 +1,21 @@
+import datetime
+
+print("El dia y hora de hoy es: ", datetime.datetime.now())
+print("El dia de hoy es: ", datetime.datetime.today())
+fecha = datetime.date(1992,2,10)
+print(fecha)
+ahora = datetime.datetime.now()
+fechahora = datetime.datetime(1992,2,10,6,35,00,00)
+print(fechahora)
+print("Año: ", fechahora.year)
+print("Mes: ", fechahora.month)
+print("Día: ", fechahora.day)
+print("Hora: ", fechahora.hour)
+print("Minutos: ", fechahora.minute)
+print("Segundos: ", fechahora.second)
+print("Microsegundos: ", fechahora.microsecond)
+print("Se va a realizar la resta de las siguientes fechas:")
+print("1.-", ahora)
+print("2.-", fechahora)
+resultado = ahora - fechahora
+print("Resultado: ", resultado)

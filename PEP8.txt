@@ -1,0 +1,9 @@
+Python define cómo nombrar a cada tipo de la siguiente manera:
+
+Funciones: Letras en minúscula separadas por barra baja: funcion, mi_funcion_de_prueba.
+Variables: Al igual que las funciones: variable, mi_variable.
+Clases: Uso de CamelCase, usando mayúscula y sin barra baja: MiClase, ClaseDePrueba.
+Métodos: Al igual que las funciones, usar snake case: metodo, mi_metodo.
+Constantes: Nombrarlas usando mayúsculas y separadas por barra bajas: UNA_CONSTANTE, OTRA_CONSTANTE.
+Módulos: Igual que las funciones: modulo.py, mi_modulo.py.
+Paquetes: En minúsculas pero sin separar por barra bajas: packete, mipaquete
